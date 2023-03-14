@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: trips_date_clean
+    columns:
+      - name: trip_year
+        tests:
+          - not_null
+      - name: trip_month
+        test:
+          - not_null
+      - name: company
+        test:
+          - not_null
+      - name: trip_miles
+        test:
+          - not_null
+      - name: trip_total
+        test:
+          - not_null

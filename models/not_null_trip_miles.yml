@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: Number_of_trips_montly
+    columns:
+      - name: trip_year
+        tests:
+          - not_null
+      - name: trip_month
+        test:
+          - not_null
+      - name: company
+        test:
+          - not_null
+      - name: num_of_trips
+        test:
+          - not_null
